@@ -92,3 +92,22 @@ body {
     color: #2e3e59;
     transform: scale(1.1);
 }
+
+
+.showcase {
+    
+    height: 600px;
+    width: 100%;
+    margin-bottom: none;
+    background-image: url("../images/image\ \(2\)\ \(2\).jpg");
+    background-position: center;
+    box-shadow: 0 0 20px black inset;
+    transition: all ease-in-out 250ms;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.showcase img {
+    box-shadow: 0 0 20px black ;
+}
