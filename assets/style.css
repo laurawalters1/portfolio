@@ -191,6 +191,11 @@ body {
     align-items: center;
     }
 
+    .showcase img {
+        width: 70%;
+        height: auto;
+    }
+
 
     .footer {
         display: flex;
