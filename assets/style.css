@@ -308,7 +308,7 @@ body {
     transition: ease-in-out 250ms;
 }*/
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     .header {
         width: 100%;
         background-image: linear-gradient(135deg, #2e3e59, #455879);
