@@ -222,33 +222,33 @@ body {
 
 .card1 {
     background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-    width: 620px;
-    height: 423px;
+    width: 100%;
+    height: 100%;
     
 }
 
 .card2 {
     background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-    width: 279px;
-    height: 190.35px;
+    width: 100%;
+    height: 100%;
 }
 
 .card3 {
     background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-    width: 279px;
-    height: 190.35px;
+    width: 100%;
+    height: 100%;
 }
 
 .card4 {
     background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-    width: 279px;
-    height: 190.35px;
+    width: 100%;
+    height: 100%;
 }
 
 .card5 {
     background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-    width: 279px;
-    height: 190.35px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -256,6 +256,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .app23 {
@@ -266,7 +267,14 @@ body {
     justify-content: center;
     column-gap: 50px;
     row-gap: 45px;
+    width: 50%;
+    height: 34%;
     
+}
+
+.app1 {
+    width: 50%;
+    height: 34%;
 }
 
 .card1:hover {
@@ -277,28 +285,28 @@ body {
 }
 .card1 p {
     position: absolute;
-    bottom: 30px;
-    left: 30px;
+    
     font-size: 200%;
     transition: ease-in-out 250ms;
 }
 
 
 
-.card:hover {
+/*.card:hover {
     transform: scale(1.2);
     transition: ease-in-out 250ms;
     box-shadow: 0 0 20px black ;
-    color: rgb(63, 62, 62);
-    padding: 10px;
     cursor: pointer;
 }
 
 .card p {
     
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
     font-size: 200%;
     transition: ease-in-out 250ms;
-}
+}*/
 
 @media only screen and (max-width: 750px) {
     .header {
@@ -386,84 +394,103 @@ body {
     }
 
 
-    .card1 {
-        background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-        width: 620px;
-        height: 426;
-        
-    }
     
-    .card2 {
-        background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-        width: 279px;
-        height: 190.35px;
-    }
+.card1 {
+    background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
+    width: 100%;
+    height: 100%;
     
-    .card3 {
-        background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-        width: 279px;
-        height: 190.35px;
-    }
-    
-    .card4 {
-        background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-        width: 279px;
-        height: 190.35px;
-    }
-    
-    .card5 {
-        background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
-        width: 279px;
-        height: 190.35px;
-    
-    }
-    
-    .app-grid {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    
-    .app23 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0;
-        position:relative;
-        justify-content: center;
-        column-gap: 50px;
-        row-gap: 45px;
-        
-    }
-    
-    .card1:hover {
-        transform: scale(1.1);
-        transition: ease-in-out 250ms;
-        box-shadow: 0 0 20px black ;
-        cursor: pointer;
-    }
-    .card1 p {
-        position: absolute;
-        bottom: 30px;
-        left: 30px;
-        font-size: 200%;
-        transition: ease-in-out 250ms;
-    }
-    
-    
-    
-    .card:hover {
-        transform: scale(1.2);
-        transition: ease-in-out 250ms;
-        box-shadow: 0 0 20px black ;
-        color: rgb(63, 62, 62);
-        padding: 10px;
-        cursor: pointer;
-    }
-    
-    .card p {
-        
-        font-size: 200%;
-        transition: ease-in-out 250ms;
-    }
+}
 
+.card2 {
+    background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
+    width: 279px;
+    height: 190.35px;
+}
+
+.card3 {
+    background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
+    width: 279px;
+    height: 190.35px;
+}
+
+.card4 {
+    background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
+    width: 279px;
+    height: 190.35px;
+}
+
+.card5 {
+    background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);
+    width: 279px;
+    height: 190.35px;
+
+}
+
+.app-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.app23 {
+    
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+   
+    
+    
+
+    
+}
+
+.app1 {
+    width: 50%;
+    height: 34%;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 250ms;
+    box-shadow: 0 0 20px black ;
+    cursor: pointer;
+}
+.card1 p {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 200%;
+    transition: ease-in-out 250ms;
+}
+
+.card {
+    position: relative;
+    right: 23px;
+    top: 35px;
+}
+
+
+
+/*.card:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 250ms;
+    box-shadow: 0 0 20px black ;
+    color: rgb(63, 62, 62);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card p {
+    
+    font-size: 200%;
+    transition: ease-in-out 250ms;
+}*/
 }
