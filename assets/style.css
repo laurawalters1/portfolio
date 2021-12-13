@@ -446,8 +446,7 @@ body {
     align-items: center;
     padding-bottom: 35px;
    
-    
-    
+
 
     
 }
@@ -471,12 +470,12 @@ body {
     transition: ease-in-out 250ms;
 }
 
-.card {
+/*.card {
     position: relative;
     right: 23px;
     top: 35px;
 }
-
+*/
 
 
 /*.card:hover {
