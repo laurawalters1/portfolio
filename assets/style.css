@@ -5,10 +5,12 @@ body {
     height: 110%;
 }
 
+
 a {
     color: rgb(209, 206, 206);
     text-decoration: none;
     width: 100%;
+    padding: 10px;
 }
 
 a:hover {
@@ -57,9 +59,10 @@ a:hover {
 
 
 .nav-link-left {
-    
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid rgb(212, 208, 208);
-    padding: 10px;
+    /*padding: 10px;*/
    width: 33.3%;
     text-align: center;
     
@@ -67,9 +70,10 @@ a:hover {
 
 .nav-link-center {
    
-        
+        display: flex;
+        align-items: center;
         border-bottom: 1px solid rgb(212, 208, 208);
-        padding: 10px;
+        /*padding: 10px;*/
         width: 33.3%;
         text-align: center;
         
@@ -77,9 +81,10 @@ a:hover {
 
  .nav-link-right {
     
-        
+       display: flex; 
+       align-items: center;
     border-bottom: 1px solid rgb(212, 208, 208);
-        padding: 10px;
+        /*padding: 10px;*/
       width: 33.3%;
       text-align: center;
       
