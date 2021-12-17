@@ -1,16 +1,24 @@
 body {
     background-image: linear-gradient(135deg,  #2e3e59, #c7426a);
-    
+
     font-family: 'Montserrat', sans-serif;
     height: 110%;
 }
 
+.coming-soon {
+    background-color: #c7426a;
+    background-image: none;
+}
 
 a {
     color: rgb(209, 206, 206);
     text-decoration: none;
     width: 100%;
     padding: 10px;
+}
+
+.card-button a {
+    padding: 20px;
 }
 
 a:hover {
