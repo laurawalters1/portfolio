@@ -5,6 +5,16 @@ body {
     height: 110%;
 }
 
+a {
+    color: rgb(209, 206, 206);
+    text-decoration: none;
+    width: 100%;
+}
+
+a:hover {
+    color: #2e3e59;
+}
+
 .header {
     width: 100%;
     background-image: linear-gradient(135deg, #2e3e59, #455879);
@@ -223,43 +233,62 @@ body {
 .card1 {
     /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
     width: 60%;
+    height: 100%;
     height: auto;
     background-color: #2e3e59;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .card2 {
     /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
     width: 100%;
-    height: 100%;
+    height: 60%;
     background-color: #2e3e59;
 }
 
 .card3 {
     /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
     width: 100%;
-    height: 100%;
+    height: 60%;
     background-color: #2e3e59;
 }
 
 .card4 {
     /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
     width: 100%;
-    height: 100%;
+    height: 60%;
     background-color: #2e3e59;
 }
 
 .card5 {
     /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
     width: 100%;
-    height: 100%;
+    height: 60%;
     background-color: #2e3e59;
 }
 
+.card-button {
+    background-color: #c7426a;
+    border: none;
+    padding: 20px;
+    color: rgb(207, 207, 207);
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.card-button:hover {
+    background-color: #b43259;
+    border: none;
+}
 .app-grid {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    align-items: center;
 }
 
 .app23 {
@@ -277,16 +306,23 @@ body {
 
 .app1 {
     width: 50%;
-    height: 34%;
+    height: 50%;
     display: flex;
     justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 250ms;
+    box-shadow: 0 0 20px black ;
+    
 }
 
 .card1:hover {
     transform: scale(1.1);
     transition: ease-in-out 250ms;
     box-shadow: 0 0 20px black ;
-    cursor: pointer;
+    
 }
 .card1 p {
     position: absolute;
@@ -404,6 +440,8 @@ body {
     /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -430,6 +468,18 @@ body {
     width: 100%;
     height: 100%;
 
+}
+
+.card-button {
+    background-color: #c7426a;
+    border: none;
+    padding: 20px;
+    color: rgb(207, 207, 207);
+}
+
+.card-button:hover {
+    background-color: #b43259;
+    border: none;
 }
 
 .app-grid {
