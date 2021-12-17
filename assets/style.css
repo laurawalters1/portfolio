@@ -139,6 +139,7 @@ body {
     border-bottom: 1px solid rgb(212, 208, 208);
 }
 
+/*applications*/
 .applications h2 {
     font-size: 150%;
 }
@@ -159,6 +160,7 @@ body {
     border-bottom: 1px solid rgb(212, 208, 208);
 }
 
+/*contact*/
 .contact h2 {
     font-size: 150%;
 }
@@ -185,7 +187,7 @@ body {
 }
 
 .info-item i {
-    font-size: 150%;
+    font-size: 130%;
 }
 
 .info-item span {
@@ -202,6 +204,7 @@ body {
     padding: 20px;
 }
 
+/*footer*/
 .footer {
     display: flex;
     justify-content: center;
@@ -212,6 +215,7 @@ body {
     padding: 20px;
 }
 
+/*application cards*/
 #card1 {
     width: 60%;
     height: 100%;
@@ -302,7 +306,9 @@ body {
     box-shadow: 0 0 20px black ; 
 }
 
+/*mobile device styling*/
 @media only screen and (max-width: 900px) {
+    /*header*/
     .header {
         justify-content: center;
         font-size: 150%;
@@ -311,6 +317,7 @@ body {
         border: none;
     }
     
+    /*navbar*/
     .nav-bar {
         flex-direction: column;
         align-items: center;
@@ -345,6 +352,7 @@ body {
         border-bottom: none;
      }   
     
+     /*showcase section*/
     .showcase {
         box-shadow: 0 0 20px black inset;
         justify-content: center;
@@ -356,6 +364,7 @@ body {
         height: auto;
     }
 
+/*application cards*/    
 #card1 {
     width: 100%;
     height: 100%;
@@ -411,6 +420,7 @@ body {
     height: 47.6%;
 }
 
+/*footer*/
 .footer {
     display: flex;
     justify-content: center;
