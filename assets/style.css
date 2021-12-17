@@ -1,34 +1,18 @@
 body {
     background-image: linear-gradient(135deg,  #2e3e59, #c7426a);
-
     font-family: 'Montserrat', sans-serif;
-    height: 110%;
 }
 
+/* styling coming soon page */
 .coming-soon {
     background-color: #c7426a;
     background-image: none;
 }
 
-a {
-    color: rgb(209, 206, 206);
-    text-decoration: none;
-    width: 100%;
-    padding: 10px;
-}
-
-.card-button a {
-    padding: 20px;
-}
-
-a:hover {
-    color: #2e3e59;
-}
-
+/* header */
 .header {
     width: 100%;
     background-image: linear-gradient(135deg, #2e3e59, #455879);
-   
     display: flex;
     font-size: 200%;
     padding: 40px;
@@ -43,7 +27,7 @@ a:hover {
     font-weight: bolder;
 }
 
-
+/* Nav bar */
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -65,63 +49,57 @@ a:hover {
     transition: all ease-in-out 250ms;
 }
 
-
-.nav-link-left {
+#nav-link-left {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(212, 208, 208);
-    /*padding: 10px;*/
-   width: 33.3%;
+    width: 33.3%;
     text-align: center;
     
 }
 
-.nav-link-center {
+#nav-link-center {
    
         display: flex;
         align-items: center;
         border-bottom: 1px solid rgb(212, 208, 208);
-        /*padding: 10px;*/
         width: 33.3%;
         text-align: center;
         
     }
 
- .nav-link-right {
+ #nav-link-right {
     
-       display: flex; 
-       align-items: center;
-    border-bottom: 1px solid rgb(212, 208, 208);
-        /*padding: 10px;*/
-      width: 33.3%;
-      text-align: center;
-      
-    
- }   
+        display: flex; 
+        align-items: center;
+        border-bottom: 1px solid rgb(212, 208, 208);
+        width: 33.3%;
+        text-align: center;
+ }
 
- .nav-link-center:hover {
+  #nav-link-center:hover {
      transition: ease 0.5s;
      background-color: rgb(212, 208, 208);
      color: #2e3e59;
      transform: scale(1.1);
  }
- .nav-link-left:hover {
+ 
+ #nav-link-left:hover {
      transition: ease 0.5s;
     background-color: rgb(212, 208, 208);
     color: #2e3e59;
     transform: scale(1.1);
 }
 
-.nav-link-right:hover {
+#nav-link-right:hover {
     transition: ease 0.5s;
     background-color: rgb(212, 208, 208);
     color: #2e3e59;
     transform: scale(1.1);
-}
+} 
 
-
+/* Showcase section */
 .showcase {
-    
     height: 600px;
     width: 100%;
     margin-bottom: none;
@@ -130,45 +108,21 @@ a:hover {
     background-attachment: fixed;
     box-shadow: 0 0 20px black inset;
     transition: all ease-in-out 250ms;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .showcase img {
     box-shadow: 0 0 20px black ;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(212, 208, 208);
-    position: relative;
-    bottom: 0px;
-    padding: 20px;
-}
 
+/* Sections */
+/*about*/
 .about h2 {
     font-size: 150%;
 }
-
-.applications h2 {
-    font-size: 150%;
-}
-
-.contact h2 {
-    font-size: 150%;
-}
-
-.info-item i {
-    font-size: 150%;
-}
-
-.info-item span {
-    font-size: 130%;
-}
-
 
 .about {
     width: 100%;
@@ -176,6 +130,17 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     padding: 50px;
     color: rgb(212, 208, 208);
+}
+
+.about:hover {
+    background-image: linear-gradient(135deg,  #cf6685, #c7426a);
+    transition: ease 1s;
+    border-top: 1px solid rgb(212, 208, 208);
+    border-bottom: 1px solid rgb(212, 208, 208);
+}
+
+.applications h2 {
+    font-size: 150%;
 }
 
 .applications {
@@ -186,6 +151,18 @@ a:hover {
     color:  rgb(212, 208, 208);
 }
 
+.applications:hover {
+    scale: 1.5;
+    background-image: linear-gradient(135deg, #8a5562 , #6b3c48);
+    transition: ease 1s;
+    border-top: 1px solid rgb(212, 208, 208);
+    border-bottom: 1px solid rgb(212, 208, 208);
+}
+
+.contact h2 {
+    font-size: 150%;
+}
+
 .contact {
     width: 100%;
     background-image: linear-gradient(135deg, #2e3e59, #455879);
@@ -194,48 +171,26 @@ a:hover {
     color: rgb(212, 208, 208);
 }
 
-.contact-link:hover {
-    color: #c7426a;
-}
-
-.about:hover {
-    background-image: linear-gradient(135deg,  #cf6685, #c7426a);
-    transition: ease 1s;
-    border-top: 1px solid rgb(212, 208, 208);
-    border-bottom: 1px solid rgb(212, 208, 208);
-}
-
-.applications:hover {
-    scale: 1.5;
-    background-image: linear-gradient(135deg, #8a5562 , #6b3c48);
-    transition: ease 1s;
-    
-    border-top: 1px solid rgb(212, 208, 208);
-    border-bottom: 1px solid rgb(212, 208, 208);
-}
-
 .contact:hover {
     scale: 1.5;
     background-image: linear-gradient(135deg, #455879, #2e3e59);
     transition: ease 1s;
     transition: transform 1s linear;
     border-top: 1px solid rgb(212, 208, 208);
-    border-bottom: 1px solid rgb(212, 208, 208);
-    
+    border-bottom: 1px solid rgb(212, 208, 208);  
 }
 
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(212, 208, 208);
-    position: relative;
-    bottom: 0px;
-    padding: 20px;
+.contact-link:hover {
+    color: #c7426a;
 }
 
+.info-item i {
+    font-size: 150%;
+}
 
+.info-item span {
+    font-size: 130%;
+}
 
 .info {
     display: flex;
@@ -247,40 +202,44 @@ a:hover {
     padding: 20px;
 }
 
-.card1 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(212, 208, 208);
+    position: relative;
+    bottom: 0px;
+    padding: 20px;
+}
+
+#card1 {
     width: 60%;
     height: 100%;
     height: auto;
     background-color: #2e3e59;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
-.card2 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card2 {
     width: 100%;
     height: 60%;
     background-color: #2e3e59;
 }
 
-.card3 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card3 {
     width: 100%;
     height: 60%;
     background-color: #2e3e59;
 }
 
-.card4 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card4 {
     width: 100%;
     height: 60%;
     background-color: #2e3e59;
 }
 
-.card5 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card5 {
     width: 100%;
     height: 60%;
     background-color: #2e3e59;
@@ -292,14 +251,18 @@ a:hover {
     padding: 20px;
     color: rgb(207, 207, 207);
     width: 100%;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 .card-button:hover {
     background-color: #b43259;
     border: none;
 }
+
+.card-button a {
+    padding: 20px;
+}
+
 .app-grid {
     display: flex;
     justify-content: space-between;
@@ -317,8 +280,7 @@ a:hover {
     column-gap: 50px;
     row-gap: 45px;
     width: 50%;
-    height: 34%;
-    
+    height: 34%;  
 }
 
 .app1 {
@@ -331,113 +293,62 @@ a:hover {
 .card:hover {
     transform: scale(1.1);
     transition: ease-in-out 250ms;
-    box-shadow: 0 0 20px black ;
-    
+    box-shadow: 0 0 20px black ;  
 }
 
-.card1:hover {
+#card1:hover {
     transform: scale(1.1);
     transition: ease-in-out 250ms;
-    box-shadow: 0 0 20px black ;
-    
+    box-shadow: 0 0 20px black ; 
 }
-/*.card1 p {
-    position: absolute;
-    
-    font-size: 200%;
-    transition: ease-in-out 250ms;
-}*/
-
-
-
-/*.card:hover {
-    transform: scale(1.2);
-    transition: ease-in-out 250ms;
-    box-shadow: 0 0 20px black ;
-    cursor: pointer;
-}
-
-.card p {
-    
-    position: absolute;
-    bottom: 10%;
-    left: 5%;
-    font-size: 200%;
-    transition: ease-in-out 250ms;
-}*/
 
 @media only screen and (max-width: 900px) {
     .header {
-        width: 100%;
-        background-image: linear-gradient(135deg, #2e3e59, #455879);
-        display: flex;
         justify-content: center;
-        align-items: flex-end;
         font-size: 150%;
         padding: 20px;
-        color: rgb(212, 208, 208);
         text-align: center;
         border: none;
     }
     
-    
     .nav-bar {
-        display: flex;
         flex-direction: column;
         align-items: center;
-        color: rgb(211, 209, 209);  
-        background-color: #c7426a;
     }
     
-    body {
-        background-color: #c7426a;
-        
-    }
-
     .nav-list {
-        display: flex;
-        width: 100%;
         flex-wrap: wrap;
-        background-color: #c7426a;
-        background-image: none;
     }
     
     .nav-link {
         padding: 10px;
-        background-color: #c7426a;
     }
     
-    
-    .nav-link-left {
-        
+    #nav-link-left {
         border-bottom: 1px solid rgb(212, 208, 208);
         padding: 10px;
-       width: 100%;
+        width: 100%;
         text-align: center;
     }
     
-    .nav-link-center {
-       
-            
-            border-bottom: 1px solid rgb(212, 208, 208);
-            padding: 10px;
-            width: 100%;
-            text-align: center;
+    #nav-link-center {
+        border-bottom: 1px solid rgb(212, 208, 208);
+        padding: 10px;
+        width: 100%;
+        text-align: center;
         }
     
-     .nav-link-right {
-            padding: 10px;
-          width: 100%;
-          text-align: center;
-          border-bottom: none;
+     #nav-link-right {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-bottom: none;
      }   
     
-
     .showcase {
-    box-shadow: 0 0 20px black inset;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+        box-shadow: 0 0 20px black inset;
+        justify-content: center;
+        align-items: center;
     }
 
     .showcase img {
@@ -445,58 +356,31 @@ a:hover {
         height: auto;
     }
 
-
-    .footer {
-        display: flex;
-        justify-content: center;
-    }
-
-
-    
-.card1 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card1 {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
-.card2 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card2 {
     width: 100%;
     height: 100%;
 }
 
-.card3 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card3 {
     width: 100%;
     height: 100%;
 }
 
-.card4 {
-   /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card4 {
     width: 100%;
     height: 100%;
 }
 
-.card5 {
-    /*background-image: url(../images/derek-story-840Mgehu3Mw-unsplash.jpg);*/
+#card5 {
     width: 100%;
     height: 100%;
-
-}
-
-.card-button {
-    background-color: #c7426a;
-    border: none;
-    padding: 20px;
-    color: rgb(207, 207, 207);
-}
-
-.card-button:hover {
-    background-color: #b43259;
-    border: none;
 }
 
 .app-grid {
@@ -507,8 +391,7 @@ a:hover {
     align-items: center;
 }
 
-.app23 {
-    
+.app23 {  
     grid-template-columns: 1fr 1fr;
     margin: 0;
     display: flex;
@@ -518,12 +401,9 @@ a:hover {
     align-items: center;
     padding-bottom: 35px;
     width: 70%;
-    height: 47.6%;
+    height: 50%;
     position: relative;
-    top: 35px;
-
-
-    
+    top: 35px;   
 }
 
 .app1 {
@@ -531,40 +411,9 @@ a:hover {
     height: 47.6%;
 }
 
-/*.card1:hover {
-    transform: scale(1.1);
-    transition: ease-in-out 250ms;
-    box-shadow: 0 0 20px black ;
-    cursor: pointer;
-}
-.card1 p {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    font-size: 200%;
-    transition: ease-in-out 250ms;
-}*/
-
-/*.card {
-    position: relative;
-    right: 23px;
-    top: 35px;
-}
-*/
-
-
-/*.card:hover {
-    transform: scale(1.2);
-    transition: ease-in-out 250ms;
-    box-shadow: 0 0 20px black ;
-    color: rgb(63, 62, 62);
-    padding: 10px;
-    cursor: pointer;
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
-.card p {
-    
-    font-size: 200%;
-    transition: ease-in-out 250ms;
-}*/
 }

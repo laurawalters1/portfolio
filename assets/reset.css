@@ -39,3 +39,14 @@
   ul {
     list-style: none;
   }
+
+  a {
+    color: rgb(209, 206, 206);
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+a:hover {
+    color: #2e3e59;
+}
